@@ -46,11 +46,11 @@ class FaceVertexMesh:
 
 # Teste com os arquivos fornecidos
 mesh1 = FaceVertexMesh()
-mesh1.read_off('/mnt/data/hand-hybrid.off')
+mesh1.read_off('hand-hybrid.off')
 print(mesh1)
 mesh1.plot(title="Malha - Hand Hybrid")
 
 mesh2 = FaceVertexMesh()
-mesh2.read_off('/mnt/data/triangles.off')
+mesh2.read_off('triangles.off')
 print(mesh2)
 mesh2.plot(title="Malha - Triangles")
